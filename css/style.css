@@ -1,19 +1,21 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-nav {
+.container {
   width: 90%;
   margin: 0 auto;
 }
+
 nav .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: no-wrap;
+  font-family: "Roboto", sans-serif;
 }
 nav .nav ul {
   list-style: none;
@@ -47,10 +49,60 @@ nav .nav ul a:hover {
   background-color: blue;
 }
 
-.name {
-  margin-left: 13%;
+.hero {
   margin-bottom: 10px;
   background-image: url("../images/Pasted image.png");
+  height: 90vh;
   background-size: cover;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+#e {
+  color: rgb(58, 58, 235);
+}
+
+.name {
+  text-align: center;
+}
+
+.us {
+  text-align: center;
+  background-color: #f4f7fb;
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+#o {
+  color: rgb(76, 76, 235);
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
+#m {
+  margin-top: 2%;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+#y {
+  color: rgb(68, 68, 218);
+  text-align: center;
+}
+
+.mages {
+  margin-right: 100px;
+}
+
+.our {
+  margin-right: 30%;
+  margin-bottom: 10%;
 }

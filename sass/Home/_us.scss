@@ -1,0 +1,15 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.us{
+    text-align: center;
+    background-color: $light-grey;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+}
+#o{
+    color: rgb(76, 76, 235);
+}
+.container{
+    font-family: "Roboto", sans-serif;
+}

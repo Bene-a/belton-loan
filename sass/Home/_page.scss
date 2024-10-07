@@ -1,0 +1,20 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+#m{
+    margin-top: 2%;
+}
+.pages{
+    @include flex(center,center);
+}
+#y{
+    color: rgb(68, 68, 218);
+    text-align: center;
+}
+.mages{
+    margin-right: 100px;
+}
+.our{
+    margin-right: 30%;
+    margin-bottom: 10%;
+}

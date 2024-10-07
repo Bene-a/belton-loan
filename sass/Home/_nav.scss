@@ -2,10 +2,9 @@
 @use "../utilities/mixins" as *;
 
 nav{
-    width: 90%;
-    margin: 0 auto;
     .nav{
         @include flex(space-between, center);
+         font-family: "Roboto", sans-serif;
         ul{
             list-style: none;
             @include flex(space-between ,center);

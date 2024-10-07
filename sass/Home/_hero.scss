@@ -1,9 +1,16 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
-.name{
-    margin-left: 13%;
+.hero{
     margin-bottom: 10px;
     background-image: url("../images/Pasted image.png");
+    height: 90vh;
     background-size: cover;
     font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+#e{
+    color: rgb(58, 58, 235);
+}
+.name{
+    text-align: center;
 }
