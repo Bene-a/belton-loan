@@ -1,0 +1,9 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+.name{
+    margin-left: 13%;
+    margin-bottom: 10px;
+    background-image: url("../images/Pasted image.png");
+    background-size: cover;
+    font-size: 20px;
+}

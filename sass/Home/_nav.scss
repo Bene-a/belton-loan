@@ -1,0 +1,36 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+nav{
+    width: 90%;
+    margin: 0 auto;
+    .nav{
+        @include flex(space-between, center);
+        ul{
+            list-style: none;
+            @include flex(space-between ,center);
+            gap:50px;
+            a{
+                text-decoration: none;
+                color:black;
+                &:hover {
+                    background-color: blue;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.btn-log{
+    border-radius: 10px 30px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+.btn-sign{
+    border-radius: 10px 30px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+
+}
