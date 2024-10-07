@@ -1,2 +1,27 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
+.tact{
+    color: rgb(49, 49, 235);
+}
+.container{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.contact{
+    background-image: url("../images/Pasted image (5).png");
+    background-size: cover;
+    height: 90vh;
+    font-family: "Roboto", sans-serif;
+}
+.name{
+    margin-top: 5%;
+}
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+.input{
+    padding: 10px;
+}
