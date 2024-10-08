@@ -93,6 +93,7 @@ nav .nav ul a:hover {
 
 #m {
   margin-top: 2%;
+  margin-left: 20%;
 }
 
 .pages {
@@ -115,6 +116,10 @@ nav .nav ul a:hover {
 .our {
   margin-right: 30%;
   margin-bottom: 10%;
+}
+
+.quote {
+  margin-right: 150%;
 }
 
 .footer {

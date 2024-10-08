@@ -3,6 +3,7 @@
 
 #m{
     margin-top: 2%;
+    margin-left: 20%
 }
 .pages{
     @include flex(center,center);
@@ -17,4 +18,7 @@
 .our{
     margin-right: 30%;
     margin-bottom: 10%;
+}
+.quote{
+    margin-right: 150%;
 }
