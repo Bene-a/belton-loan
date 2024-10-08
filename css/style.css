@@ -49,6 +49,8 @@ nav .nav ul a:hover {
   border-radius: 10px 30px;
   padding: 10px;
   color: white;
+}
+.btn-log:hover {
   background-color: blue;
 }
 
@@ -56,6 +58,8 @@ nav .nav ul a:hover {
   border-radius: 10px 30px;
   padding: 10px;
   color: white;
+}
+.btn-sign:hover {
   background-color: blue;
 }
 
@@ -69,7 +73,7 @@ nav .nav ul a:hover {
 }
 
 #e {
-  color: rgb(58, 58, 235);
+  color: blue;
 }
 
 .name {
@@ -212,6 +216,12 @@ nav .nav ul a:hover {
   color: blue;
 }
 
+.btns {
+  padding: 20px;
+  border-radius: 10px 30px;
+  margin-top: 2%;
+}
+
 .signup {
   background-image: url("../images/pexels-jakubzerdzicki-27641070.jpg");
   background-size: cover;
@@ -250,7 +260,6 @@ nav .nav ul a:hover {
 
 .btn-signs {
   padding: 20px;
-  background-color: rgb(49, 49, 179);
   color: white;
   border-radius: 10px 30px;
 }

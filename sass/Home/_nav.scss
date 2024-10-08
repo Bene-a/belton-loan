@@ -24,12 +24,15 @@ nav{
     border-radius: 10px 30px;
     padding: 10px;
     color: white;
-    background-color: blue;
+    &:hover{
+        background-color: blue;
+    }
 }
 .btn-sign{
     border-radius: 10px 30px;
     padding: 10px;
     color: white;
-    background-color: blue;
-
+    &:hover{
+        background-color: blue;
+    }
 }
