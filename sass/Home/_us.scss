@@ -1,15 +1,31 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
-
-.us{
+.card{
+    display: flex;
+    gap: 10%;
+}
+.credit{
+    border:2px solid lightblue;
+    padding: 10px;
+    border-radius: 10px 30px;
+}
+#v{
+    margin-left: 40%;
+    color: blue;
+}
+#l{
     text-align: center;
-    background-color: $light-grey;
-    border-radius: 50px;
-    font-family: "Roboto", sans-serif;
 }
-#o{
-    color: rgb(76, 76, 235);
+.why-us{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
 }
-.container{
-    font-family: "Roboto", sans-serif;
+#j{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#a{
+    margin-top: 5%;
+    margin-right: 25%;
 }

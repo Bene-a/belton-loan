@@ -1,0 +1,21 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.testimonial-profile{
+    border: 2px solid lightblue;
+    gap: 20%;
+    border-radius: 10px 30px;
+}
+.imagess{
+    border-radius: 10px 30px;
+}
+.color{
+    color: blue;
+    margin-bottom: 5%;
+}
+.testimonial{
+    margin-top: 5%;
+}
+.margin{
+    margin-top: 5%;
+}

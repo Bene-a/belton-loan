@@ -88,19 +88,40 @@ nav .nav ul a:hover {
   text-align: center;
 }
 
-.us {
+.card {
+  display: flex;
+  gap: 10%;
+}
+
+.credit {
+  border: 2px solid lightblue;
+  padding: 10px;
+  border-radius: 10px 30px;
+}
+
+#v {
+  margin-left: 40%;
+  color: blue;
+}
+
+#l {
   text-align: center;
-  background-color: #f4f7fb;
-  border-radius: 50px;
-  font-family: "Roboto", sans-serif;
 }
 
-#o {
-  color: rgb(76, 76, 235);
+.why-us {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 5%;
 }
 
-.container {
-  font-family: "Roboto", sans-serif;
+#j {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+#a {
+  margin-top: 5%;
+  margin-right: 25%;
 }
 
 #m {
@@ -189,8 +210,9 @@ nav .nav ul a:hover {
 }
 
 .names {
-  border: 5px solid white;
+  border: 5px solid lightblue;
   border-width: thin;
+  border-radius: 10px 30px;
 }
 
 .tion {
@@ -219,7 +241,7 @@ nav .nav ul a:hover {
   color: blue;
 }
 
-#e {
+#k {
   color: white;
 }
 
@@ -278,4 +300,27 @@ nav .nav ul a:hover {
 
 #n {
   color: blue;
+}
+
+.testimonial-profile {
+  border: 2px solid lightblue;
+  gap: 20%;
+  border-radius: 10px 30px;
+}
+
+.imagess {
+  border-radius: 10px 30px;
+}
+
+.color {
+  color: blue;
+  margin-bottom: 5%;
+}
+
+.testimonial {
+  margin-top: 5%;
+}
+
+.margin {
+  margin-top: 5%;
 }
