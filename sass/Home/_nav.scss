@@ -36,3 +36,19 @@ nav{
         background-color: blue;
     }
 }
+
+
+@media screen and (max-width: 500px) {
+    nav{
+        .nav{
+            .nav-center{
+                display: none;
+            }
+            .nav-right{
+                .fa-bars{
+                    display: block;
+                }
+            }
+        }
+    }
+}

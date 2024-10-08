@@ -63,6 +63,14 @@ nav .nav ul a:hover {
   background-color: blue;
 }
 
+@media screen and (max-width: 500px) {
+  nav .nav .nav-center {
+    display: none;
+  }
+  nav .nav .nav-right .fa-bars {
+    display: block;
+  }
+}
 .hero {
   margin-bottom: 10px;
   background-image: url("../images/Pasted image.png");
