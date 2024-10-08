@@ -1,9 +1,10 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
 .signup{
-    background-image: url("../images/pexels-rdne-7821742.jpg");
+    background-image: url("../images/pexels-jakubzerdzicki-27641070.jpg");
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
+    font-family: "Roboto", sans-serif;
 }
 .fulls{
     padding: 10px;
@@ -17,11 +18,19 @@
 }
 #f{
     margin-top: 2%;
-    
+    color: white;
 }
 #b{
-    color: rgb(134, 134, 143);
+    color: rgb(49, 49, 179);;
 }
 .bel{
-    color: rgb(137, 137, 150);
+    color: rgb(49, 49, 179);;
+}
+.sign{
+    margin-top: 2%;
+}
+.btn-signs{
+    padding: 20px;
+    background-color: rgb(49, 49, 179);
+    color: white;
 }
