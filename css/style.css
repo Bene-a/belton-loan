@@ -4,9 +4,19 @@
   box-sizing: border-box;
 }
 
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  color: #000;
+  gap: 30px;
 }
 
 nav .nav {
@@ -107,6 +117,22 @@ nav .nav ul a:hover {
   margin-bottom: 10%;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.quick {
+  color: blue;
+}
+
 .tact {
   color: rgb(49, 49, 235);
 }
@@ -133,8 +159,80 @@ nav .nav ul a:hover {
   background-color: blue;
   color: white;
   margin-top: 2%;
+  width: 150px;
+  border: none;
 }
 
 .input {
   padding: 10px;
+  outline: none;
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+}
+
+.names {
+  border: 5px solid blue;
+  border-width: thin;
+}
+
+.login {
+  background-image: url("../images/pexels-rdne-7841821.jpg");
+  background-size: cover;
+  height: 80vh;
+}
+
+.in {
+  margin-top: 5%;
+}
+
+.inputs {
+  padding: 10px;
+  outline: none;
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+}
+
+.to {
+  color: blue;
+}
+
+#e {
+  color: white;
+}
+
+.have {
+  text-align: center;
+  color: blue;
+}
+
+.signup {
+  background-image: url("../images/pexels-rdne-7821742.jpg");
+  background-size: cover;
+  height: 80vh;
+}
+
+.fulls {
+  padding: 10px;
+  outline: none;
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+}
+
+.full {
+  margin-top: 5%;
+}
+
+#f {
+  margin-top: 2%;
+}
+
+#b {
+  color: rgb(134, 134, 143);
+}
+
+.bel {
+  color: rgb(137, 137, 150);
 }

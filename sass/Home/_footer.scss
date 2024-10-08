@@ -1,2 +1,12 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
+.footer{
+    @include flex(space-between,center);
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Roboto", sans-serif;
+}
+.quick{
+    color: blue;
+}
