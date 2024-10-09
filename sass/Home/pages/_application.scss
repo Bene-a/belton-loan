@@ -40,3 +40,21 @@
 .mail-bar{
     padding: 30px;
 }
+
+
+
+// media query
+@media screen and (max-width:600px){
+    .application{
+        padding: 10px;
+    }
+    #p{
+        font-size: 1.4em;
+    }
+    #w{
+        font-size: 2em;
+    }
+    .sub-btn{
+        font-size: 1em;
+    }
+}

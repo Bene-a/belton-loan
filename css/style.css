@@ -525,5 +525,23 @@ nav .nav ul a:hover {
 
 .mail-bar {
   padding: 30px;
+<<<<<<< HEAD
 >>>>>>> 30895c7 (change the font size background text)
+=======
+}
+
+@media screen and (max-width: 600px) {
+  .application {
+    padding: 10px;
+  }
+  #p {
+    font-size: 1.4em;
+  }
+  #w {
+    font-size: 2em;
+  }
+  .sub-btn {
+    font-size: 1em;
+  }
+>>>>>>> a0a72ce (trying to apply new things)
 }

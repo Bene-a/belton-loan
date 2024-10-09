@@ -31,3 +31,18 @@
     background-color: lightblue;
     color: blue;
 }
+
+@media screen and(max-width:768px){
+    .about-us{
+        padding: 10px;
+    }
+    .about{
+        font-size: 1.5em;
+    }
+    #m k{
+       font-size: 2em;
+    }
+    .btn-read{
+        font-size: 1em;
+    }
+}
