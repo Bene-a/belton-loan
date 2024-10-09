@@ -3,14 +3,26 @@
 .hero{
     margin-bottom: 10px;
     background-image: url("../images/Pasted image.png");
-    height: 90vh;
+    height: 80vh;
     background-size: cover;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
+    padding-top: 180px;
 }
 #e{
     color: blue;
+    font-size: 50px;
+    font-weight: bold;
 }
 .name{
     text-align: center;
+}
+.btn-more{
+    padding: 10px;
+    border-radius: 10px 30px;
+    margin-top: 18%;
+    margin-top: 2%;
+    &:hover{
+        color: blue;
+    }
 }

@@ -8,13 +8,13 @@ nav{
         ul{
             list-style: none;
             @include flex(space-between ,center);
-            gap:50px;
+            gap:100px;
             a{
                 text-decoration: none;
                 color:black;
                 &:hover {
-                    background-color: blue;
-                    color: white;
+                    color: blue;
+                    padding: 20px;
                 }
             }
         }
@@ -24,8 +24,9 @@ nav{
     border-radius: 10px 30px;
     padding: 10px;
     color: white;
+    font-family: "Roboto", sans-serif;
     &:hover{
-        background-color: blue;
+        background-color: lightblue;
     }
 }
 .btn-sign{
@@ -33,7 +34,7 @@ nav{
     padding: 10px;
     color: white;
     &:hover{
-        background-color: blue;
+        background-color: lightblue;
     }
 }
 
