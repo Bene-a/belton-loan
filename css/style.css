@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -421,23 +422,29 @@ nav .nav ul a:hover {
   gap: 30px;
 =======
 .more {
+=======
+.about-us {
+>>>>>>> 30895c7 (change the font size background text)
   display: flex;
-  gap: 20px;
-  width: 80%;
+  gap: 30px;
+  margin-left: 20%;
+  background-color: white;
 }
 
-.testimonial {
-  margin-left: 45%;
+.about {
+  margin-top: 30px;
+  font-size: larger;
 }
 
-#e {
-  color: rgb(47, 47, 219);
+.k {
+  font-size: x-large;
 }
 
-#f {
-  border-radius: 25px;
+.m {
+  color: blue;
 }
 
+<<<<<<< HEAD
 .pop {
   background-image: url("../images/Pasted image (2).png");
 }
@@ -456,6 +463,10 @@ nav .nav ul a:hover {
 
 .splash {
   padding-left: 20%;
+=======
+.body {
+  background-color: white;
+>>>>>>> 30895c7 (change the font size background text)
 }
 
 .application {
@@ -479,8 +490,12 @@ nav .nav ul a:hover {
 }
 
 .sub-btn {
-  padding-inline-end: 250px;
+  padding: 10px 20px;
   color: red;
+}
+.sub-btn:hover {
+  color: blue;
+  background-color: red;
 }
 
 .l {
@@ -491,5 +506,12 @@ nav .nav ul a:hover {
 
 .status {
   text-align: flex-start;
+<<<<<<< HEAD
 >>>>>>> 87be0c1 (changed the styles in application form)
+=======
+}
+
+.mail-bar {
+  padding: 30px;
+>>>>>>> 30895c7 (change the font size background text)
 }

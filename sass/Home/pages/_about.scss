@@ -1,33 +1,22 @@
 @use "../../utilities/variables" as *;
-@use "../../utilities/mixins" as *;
-.more{
+@use "../../utilities/mixins" as  *;
+
+.about-us{
     display: flex;
-    gap: 20px;
-    width: 80%;
+    gap:30px;
+    margin-left: 20%;
+    background-color: white;
 }
-.testimonial{
-    margin-left: 45%;
-
+.about{
+    margin-top: 30px;
+    font-size: larger;
 }
-
-#e{
-    color: rgb(47, 47, 219);
+.k{
+    font-size: x-large;
 }
-#f{
-    border-radius: 25px;
+.m{
+    color: blue;
 }
-.pop{
-    background-image: url("../images/Pasted image (2).png");
-
-}
-.loop{
-    display: flex;
-    gap:20px;
-    width: 80px;
-    margin: right 3px;
-    padding: 10p;
-}
-
-.splash{
-    padding-left: 20%;
+.body{
+    background-color:white;
 }

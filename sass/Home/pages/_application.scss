@@ -20,8 +20,13 @@
     color:green;
 }
 .sub-btn{
-    padding-inline-end: 250px;
+    padding:  10px 20px;
     color: red;
+    &:hover{
+        color: blue;
+        background-color: red;
+    }
+
 }
 .l{
     text-align: flex start;
@@ -31,4 +36,7 @@
 }
 .status{
     text-align: flex-start;
+}
+.mail-bar{
+    padding: 30px;
 }
