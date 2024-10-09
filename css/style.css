@@ -68,6 +68,18 @@ nav .nav ul a:hover {
   background-color: lightblue;
 }
 
+.nav-center {
+  margin-top: 2%;
+}
+
+.nav-right {
+  margin-top: 2%;
+}
+
+.nav-left {
+  margin-top: 2%;
+}
+
 @media screen and (max-width: 500px) {
   nav .nav .nav-center {
     display: none;
