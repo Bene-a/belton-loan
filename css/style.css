@@ -481,6 +481,20 @@ nav .nav ul a:hover {
   color: blue;
 }
 
+@media screen and (max-width: 768px) {
+  .about-us {
+    padding: 10px;
+  }
+  .about {
+    font-size: 1.5em;
+  }
+  #m k {
+    font-size: 2em;
+  }
+  .btn-read {
+    font-size: 1em;
+  }
+}
 .application {
   display: grid;
   justify-content: center;
@@ -524,10 +538,18 @@ nav .nav ul a:hover {
 }
 
 .mail-bar {
+<<<<<<< HEAD
   padding: 30px;
 <<<<<<< HEAD
 >>>>>>> 30895c7 (change the font size background text)
 =======
+=======
+  padding: 50px;
+}
+
+.annual {
+  padding: 10px;
+>>>>>>> 661fbef (some changes in home page)
 }
 
 @media screen and (max-width: 600px) {
