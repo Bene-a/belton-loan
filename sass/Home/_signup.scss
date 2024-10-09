@@ -1,0 +1,40 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+.signup {
+  background-image: url("../images/pexels-jakubzerdzicki-27641070.jpg");
+  background-size: cover;
+  height: 90vh;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2%;
+}
+.fulls {
+  padding: 10px;
+  outline: none;
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+}
+.full {
+  margin-top: 5%;
+}
+#f {
+  margin-top: 2%;
+  color: white;
+}
+#b {
+  color: rgb(49, 49, 179);
+}
+.bel {
+    color: rgb(49, 49, 179);
+}
+.sign {
+  margin-top: 2%;
+}
+.btn-signs {
+  padding: 20px;
+  color: white;
+  border-radius: 10px 30px;
+}
+#n {
+  color: blue;
+}
