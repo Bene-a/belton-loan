@@ -1,0 +1,48 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as  *;
+
+.about-us{
+    display: flex;
+    gap:30px;
+    margin-left: 20%;
+    background-color: white;
+}
+.about{
+    margin-top: 30px;
+    font-size: larger;
+}
+.k{
+    font-size: x-large;
+}
+.m{
+    color: blue;
+}
+.body{
+    background-color:white;
+}
+.Read more{
+    padding: 10px 2opx;
+    color:red;
+    
+}
+.btn-read{
+    padding: 10px;
+    border-radius: 10px 30px; 
+    background-color: lightblue;
+    color: blue;
+}
+
+@media screen and (max-width:768px){
+    .about-us{
+        padding: 10px;
+    }
+    .about{
+        font-size: 1.5em;
+    }
+    #m k{
+       font-size: 2em;
+    }
+    .btn-read{
+        font-size: 1em;
+    }
+}
