@@ -31,3 +31,17 @@
     border-radius: 10px 30px;
     margin-top: 2%;
 }
+@media screen and (max-width: 600px){
+    .login{
+      padding: 10px;
+    }
+    #to{
+      font-size: 1.5em;
+    }
+    #k{
+      font-size: 2em;
+    }
+    .btns{
+      font-size: 1em;
+    }
+  }

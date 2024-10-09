@@ -19,6 +19,10 @@ ul li {
   gap: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav .nav {
   display: flex;
   justify-content: space-between;
@@ -196,6 +200,12 @@ nav .nav ul a:hover {
   margin-right: 100px;
   font-family: "Roboto", sans-serif;
 }
+@media (max-width: 650px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 .quick {
   color: blue;
@@ -251,6 +261,20 @@ nav .nav ul a:hover {
   font-size: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .contact {
+    padding: 10px;
+  }
+  .tact {
+    font-size: 1.5em;
+  }
+  .tion {
+    font-size: 2em;
+  }
+  .btn-upmit {
+    font-size: 1em;
+  }
+}
 .login {
   background-image: url("../images/pexels-rdne-7841821.jpg");
   background-size: cover;
@@ -288,6 +312,20 @@ nav .nav ul a:hover {
   margin-top: 2%;
 }
 
+@media screen and (max-width: 600px) {
+  .login {
+    padding: 10px;
+  }
+  #to {
+    font-size: 1.5em;
+  }
+  #k {
+    font-size: 2em;
+  }
+  .btns {
+    font-size: 1em;
+  }
+}
 .signup {
   background-image: url("../images/pexels-jakubzerdzicki-27641070.jpg");
   background-size: cover;

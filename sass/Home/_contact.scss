@@ -44,4 +44,21 @@
   font-size: 20px;
 }
 
+// media querries
+
+@media screen and (max-width: 600px){
+  .contact{
+    padding: 10px;
+  }
+  .tact{
+    font-size: 1.5em;
+  }
+  .tion{
+    font-size: 2em;
+  }
+  .btn-upmit{
+    font-size: 1em;
+  }
+}
+
 

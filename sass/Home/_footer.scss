@@ -6,7 +6,12 @@
     margin-left: 100px;
     margin-right: 100px;
     font-family: "Roboto", sans-serif;
+    @media (max-width: 650px){
+        flex-direction: column;
+        text-align: center;
+    }
 }
 .quick{
     color: blue;
 }
+
