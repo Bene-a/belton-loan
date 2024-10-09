@@ -469,6 +469,18 @@ nav .nav ul a:hover {
 >>>>>>> 30895c7 (change the font size background text)
 }
 
+.Read more {
+  padding: 10px 2opx;
+  color: red;
+}
+
+.btn-read {
+  padding: 10px;
+  border-radius: 10px 30px;
+  background-color: lightblue;
+  color: blue;
+}
+
 .application {
   display: grid;
   justify-content: center;
