@@ -440,12 +440,56 @@ nav .nav ul a:hover {
 
 .pop {
   background-image: url("../images/Pasted image (2).png");
-  background-size: cover;
-  height: 70vh;
 }
 
 .loop {
   display: flex;
+<<<<<<< HEAD
   gap: 20px width;
 >>>>>>> b1e9e43 (changed apliication form)
+=======
+  gap: 20px;
+  width: 80px;
+  margin: right 3px;
+  padding: 10p;
+}
+
+.splash {
+  padding-left: 20%;
+}
+
+.application {
+  display: grid;
+  justify-content: center;
+  background-image: url("../images/Pasted image (7).png");
+  background-size: cover;
+}
+
+.will {
+  text-align: flex start;
+  align-items: flex-start;
+}
+
+#p {
+  color: blue;
+}
+
+#w {
+  color: green;
+}
+
+.sub-btn {
+  padding-inline-end: 250px;
+  color: red;
+}
+
+.l {
+  text-align: flex start;
+  list-style-position: straight;
+  align-content: start;
+}
+
+.status {
+  text-align: flex-start;
+>>>>>>> 87be0c1 (changed the styles in application form)
 }

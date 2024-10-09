@@ -1,6 +1,34 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
 
-.form{
-    display: flex;
+.application{
+    // text-align: center;
+    display: grid;
+    justify-content: center;
+    background-image:url("../images/Pasted image (7).png");
+    background-size: cover;
+}
+.will{
+    // display: flex;
+   text-align: flex start; 
+   align-items: flex-start;
+}
+#p{
+    color:blue;
+}
+#w{
+    color:green;
+}
+.sub-btn{
+    padding-inline-end: 250px;
+    color: red;
+}
+.l{
+    text-align: flex start;
+    // align-items: start;
+    list-style-position: straight;
+    align-content: start;
+}
+.status{
+    text-align: flex-start;
 }
