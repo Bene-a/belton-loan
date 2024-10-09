@@ -1,47 +1,48 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
 
-.login{
-    background-image: url("../images/pexels-rdne-7841821.jpg");
-    background-size: cover;
-    height: 80vh;
+.login {
+  background-image: url("../images/pexels-rdne-7841821.jpg");
+  background-size: cover;
+  height: 80vh;
+  margin-bottom: 2%;
 }
-.in{
-    margin-top: 5%;
+.in {
+  margin-top: 5%;
 }
 .inputs {
+  padding: 20px;
+  outline: none;
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+}
+.to {
+  color: blue;
+}
+#k {
+  color: white;
+}
+.have {
+  text-align: center;
+  color: blue;
+}
+.btns {
+  padding: 20px;
+  border-radius: 10px 30px;
+  margin-top: 2%;
+}
+@media screen and (max-width: 600px) {
+  .login {
     padding: 10px;
-    outline: none;
-    width: 350px;
-    border-radius: 15px;
-    border: none;
-} 
-.to{
-    color: blue;
-} 
-#k{
-    color: white;
-} 
-.have{
-    text-align: center;
-    color: blue;
-}
-.btns{
-    padding: 20px;
-    border-radius: 10px 30px;
-    margin-top: 2%;
-}
-@media screen and (max-width: 600px){
-    .login{
-      padding: 10px;
-    }
-    #to{
-      font-size: 1.5em;
-    }
-    #k{
-      font-size: 2em;
-    }
-    .btns{
-      font-size: 1em;
-    }
   }
+  #to {
+    font-size: 1.5em;
+  }
+  #k {
+    font-size: 2em;
+  }
+  .btns {
+    font-size: 1em;
+  }
+}

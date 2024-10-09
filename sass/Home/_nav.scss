@@ -1,65 +1,64 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
 
-nav{
-    .nav{
-        @include flex(space-between, center);
-         font-family: "Roboto", sans-serif;
-        ul{
-            list-style: none;
-            @include flex(space-between ,center);
-            gap:100px;
-            a{
-                text-decoration: none;
-                color:black;
-                &:hover {
-                    color: blue;
-                    padding: 20px;
-                }
-            }
-        }
-    }
-}
-.btn-log{
-    border-radius: 10px 30px;
-    padding: 10px;
-    color: white;
+nav {
+  .nav {
+    @include flex(space-between, center);
     font-family: "Roboto", sans-serif;
-    &:hover{
-        background-color: lightblue;
+    ul {
+      list-style: none;
+      @include flex(space-between, center);
+      gap: 100px;
+      a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          color: blue;
+          padding: 20px;
+        }
+      }
     }
+  }
 }
-.btn-sign{
-    border-radius: 10px 30px;
-    padding: 10px;
-    color: white;
-    &:hover{
-        background-color: lightblue;
-    }
+.btn-log {
+  border-radius: 10px 30px;
+  padding: 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  &:hover {
+    background-color: lightblue;
+  }
+}
+.btn-sign {
+  border-radius: 10px 30px;
+  padding: 10px;
+  color: white;
+  &:hover {
+    background-color: lightblue;
+  }
 }
 
-.nav-center{
-    margin-top: 2%;
+.nav-center {
+  margin-top: 2%;
 }
-.nav-right{
-    margin-top: 2%;
+.nav-right {
+  margin-top: 2%;
 }
-.nav-left{
-    margin-top: 2%;
+.nav-left {
+  margin-top: 2%;
 }
-
 
 @media screen and (max-width: 500px) {
-    nav{
-        .nav{
-            .nav-center{
-                display: none;
-            }
-            .nav-right{
-                .fa-bars{
-                    display: block;
-                }
-            }
+  nav {
+    .nav {
+      .nav-center {
+        display: none;
+      }
+      .nav-right {
+        .fa-bars {
+          display: block;
         }
+      }
     }
+  }
 }

@@ -238,6 +238,7 @@ nav .nav ul a:hover {
   background-size: cover;
   height: 90vh;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 2%;
 }
 
 .name {
@@ -291,6 +292,7 @@ nav .nav ul a:hover {
   background-image: url("../images/pexels-rdne-7841821.jpg");
   background-size: cover;
   height: 80vh;
+  margin-bottom: 2%;
 }
 
 .in {
@@ -298,7 +300,7 @@ nav .nav ul a:hover {
 }
 
 .inputs {
-  padding: 10px;
+  padding: 20px;
   outline: none;
   width: 350px;
   border-radius: 15px;
@@ -343,6 +345,7 @@ nav .nav ul a:hover {
   background-size: cover;
   height: 90vh;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 2%;
 }
 
 .fulls {
