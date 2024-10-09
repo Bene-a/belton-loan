@@ -1,0 +1,31 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.more{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+.testimonial{
+    margin-left: 45%;
+    background-color: 
+}
+#e{
+    color: rgb(47, 47, 219);
+}
+#f{
+    border-radius: 25px;
+}
+.pop{
+    background-image: url("../images/Pasted image (2).png");
+
+}
+.loop{
+    display: flex;
+    gap:20px
+    width: 80px;
+    margin: right 3px;
+    padding: 10p;
+}
+.splash{
+    padding-left: 20%;
+}

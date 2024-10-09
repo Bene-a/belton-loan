@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -418,4 +419,33 @@ nav .nav ul a:hover {
 .testimonial-container {
   display: flex;
   gap: 30px;
+=======
+.more {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+
+.testimonial {
+  margin-left: 45%;
+}
+
+#e {
+  color: rgb(47, 47, 219);
+}
+
+#f {
+  border-radius: 25px;
+}
+
+.pop {
+  background-image: url("../images/Pasted image (2).png");
+  background-size: cover;
+  height: 70vh;
+}
+
+.loop {
+  display: flex;
+  gap: 20px width;
+>>>>>>> b1e9e43 (changed apliication form)
 }
