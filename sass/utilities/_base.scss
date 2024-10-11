@@ -1,15 +1,14 @@
-<<<<<<< HEAD
+
 @use "./variables" as *;
 
-=======
+
 @use "./variables"as *;
->>>>>>> b1e9e43 (changed apliication form)
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 .body{
     font-family: "Roboto", sans-serif;
@@ -25,9 +24,9 @@ ul li{
 }
 a{
    text-decoration: none; 
-=======
->>>>>>> b1e9e43 (changed apliication form)
+   color: black;
 }
-=======
+
 }
->>>>>>> 30895c7 (change the font size background text)
+
+}
