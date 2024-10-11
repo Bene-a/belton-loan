@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -418,4 +420,150 @@ nav .nav ul a:hover {
 .testimonial-container {
   display: flex;
   gap: 30px;
+=======
+.more {
+=======
+.about-us {
+>>>>>>> 30895c7 (change the font size background text)
+  display: flex;
+  gap: 30px;
+  margin-left: 20%;
+  background-color: white;
+}
+
+.about {
+  margin-top: 30px;
+  font-size: larger;
+}
+
+.k {
+  font-size: x-large;
+}
+
+.m {
+  color: blue;
+}
+
+<<<<<<< HEAD
+.pop {
+  background-image: url("../images/Pasted image (2).png");
+}
+
+.loop {
+  display: flex;
+<<<<<<< HEAD
+  gap: 20px width;
+>>>>>>> b1e9e43 (changed apliication form)
+=======
+  gap: 20px;
+  width: 80px;
+  margin: right 3px;
+  padding: 10p;
+}
+
+.splash {
+  padding-left: 20%;
+=======
+.body {
+  background-color: white;
+>>>>>>> 30895c7 (change the font size background text)
+}
+
+.Read more {
+  padding: 10px 2opx;
+  color: red;
+}
+
+.btn-read {
+  padding: 10px;
+  border-radius: 10px 30px;
+  background-color: lightblue;
+  color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    padding: 10px;
+  }
+  .about {
+    font-size: 1.5em;
+  }
+  #m k {
+    font-size: 2em;
+  }
+  .btn-read {
+    font-size: 1em;
+  }
+}
+.application {
+  display: grid;
+  justify-content: center;
+  background-image: url("../images/Pasted image (7).png");
+  background-size: cover;
+}
+
+.will {
+  text-align: flex start;
+  align-items: flex-start;
+}
+
+#p {
+  color: blue;
+}
+
+#w {
+  color: green;
+}
+
+.sub-btn {
+  padding: 10px 20px;
+  color: red;
+}
+.sub-btn:hover {
+  color: blue;
+  background-color: red;
+}
+
+.l {
+  text-align: flex start;
+  list-style-position: straight;
+  align-content: start;
+}
+
+.status {
+  text-align: flex-start;
+<<<<<<< HEAD
+>>>>>>> 87be0c1 (changed the styles in application form)
+=======
+}
+
+.mail-bar {
+<<<<<<< HEAD
+  padding: 30px;
+<<<<<<< HEAD
+>>>>>>> 30895c7 (change the font size background text)
+=======
+=======
+  padding: 50px;
+}
+
+.annual {
+  padding: 10px;
+>>>>>>> 661fbef (some changes in home page)
+}
+
+@media screen and (max-width: 600px) {
+  .application {
+    padding: 10px;
+  }
+  #p {
+    font-size: 1.4em;
+  }
+  #w {
+    font-size: 2em;
+  }
+  .sub-btn {
+    font-size: 1em;
+  }
+>>>>>>> a0a72ce (trying to apply new things)
 }

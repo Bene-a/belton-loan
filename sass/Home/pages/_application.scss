@@ -1,0 +1,63 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.application{
+    // text-align: center;
+    display: grid;
+    justify-content: center;
+    background-image:url("../images/Pasted image (7).png");
+    background-size: cover;
+}
+.will{
+    // display: flex;
+   text-align: flex start; 
+   align-items: flex-start;
+}
+#p{
+    color:blue;
+}
+#w{
+    color:green;
+}
+.sub-btn{
+    padding:  10px 20px;
+    color: red;
+    &:hover{
+        color: blue;
+        background-color: red;
+    }
+
+}
+.l{
+    text-align: flex start;
+    // align-items: start;
+    list-style-position: straight;
+    align-content: start;
+}
+.status{
+    text-align: flex-start;
+}
+.mail-bar{
+    padding: 50px;
+}
+.annual{
+    padding: 10px
+}
+
+
+
+// media query
+@media screen and (max-width:600px){
+    .application{
+        padding: 10px;
+    }
+    #p{
+        font-size: 1.4em;
+    }
+    #w{
+        font-size: 2em;
+    }
+    .sub-btn{
+        font-size: 1em;
+    }
+}
